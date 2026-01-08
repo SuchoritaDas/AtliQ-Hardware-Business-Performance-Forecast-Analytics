@@ -153,6 +153,10 @@ These numbers are not shown only at a company level. They are broken down by mar
 
 ## How to explore this project
 
+🔗 Live Power BI Dashboard:
+Open live_dashboard_link.txt to view the interactive report.
+
+
 This project is published as a live, interactive Power BI dashboard.
 The GitHub repository contains the project explanation and supporting material, while the dashboard link lets you interact with the data directly.
 Inside the dashboard, you can filter by year, market, channel, and product to see how sales, profit, and forecast numbers change — exactly how leadership would use it in real business reviews.
