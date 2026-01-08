@@ -1,1 +1,0 @@
-create database AtliQ_Technologies;
