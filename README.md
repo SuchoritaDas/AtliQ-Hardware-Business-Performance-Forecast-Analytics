@@ -10,6 +10,7 @@ This created a situation where leadership was making decisions without knowing:
 ◉ Whether 2022 goals were at risk
 
 ## What I was asked to do
+
 I was responsible for building a centralized analytics system that would:
 Combine SQL and Excel data into a single source of truth
 Track sales, cost, profit, and margins
@@ -20,45 +21,77 @@ Give leadership a real-time, decision-ready view of the business
 
 ## Business Situation
 ◉ AtliQ was growing in revenue, but leadership was struggling to understand why profit was not growing at the same pace.
+
 ◉ Some regions, especially Latin America, were showing higher sales but falling profit.
+
 ◉ At the same time, the company had set 2022 sales and profit targets, but Excel-based reporting could not clearly show whether those targets would be met.
+
 ◉ There was no single, trusted view of actual vs last year vs forecast vs target.
 
 ## Tools & Data Integration
 The full analytics pipeline was built using:
+
 ◉ MySQL to store daily transactional data
+
 ◉ Excel for targets, forecasts, and reference data
+
 ◉ SharePoint to store Excel files in the cloud
+
 ◉ Power BI Desktop to clean data, build the model, and create KPIs and dashboards
+
 ◉ Power BI Service to publish, share, and refresh dashboards
+
 ◉ Data Gateway to connect the SQL database to the cloud
+
 ◉ DAX Studio to optimize performance and reduce PBIX size
+
 ◉ Canva to design professional presentation slides
 
 ## How the System Works
+
 ◉ Sales data is recorded daily in MySQL
+
 ◉ Forecast and target data is maintained in Excel
+
 ◉ Excel files are uploaded to SharePoint
+
 ◉ Power BI connects to both SQL and SharePoint
+
 ◉ Data is modeled and analyzed in Power BI Desktop
+
 ◉ Dashboards are published to Power BI Service
+
 ◉ SQL and SharePoint sync automatically through the gateway
+
 ◉ Dashboards always show up-to-date data
 
 ## Key KPIs Used
 ◉ The dashboards track and analyze:
+
 ◉ Total Revenue
+
 ◉ Cost of Goods Sold
+
 ◉ Gross Profit
+
 ◉ Net Profit
+
 ◉ Profit Margin
+
 ◉ Year-over-Year Growth
+
 ◉ Market Performance
+
 ◉ Channel Performance
+
 ◉ Product Performance
+
 ◉ Customer Contribution
+
 ◉ 2022 Forecast
+
 ◉ 2022 Target
+
 ◉ Forecast vs Target Gap
 
 ## What the analysis revealed
@@ -91,26 +124,35 @@ Leadership could immediately identify which regions and channels were driving pr
 
 
 ## Key Business Impact
+
 ◉ +18% Revenue Visibility
 Enabled leadership to track the full 2022 revenue forecast (~18% growth) against last year and targets in one dashboard.
+
 ◉ +7% Profit Growth Reality
 Revealed that although sales were rising, profit was growing only ~7%, exposing hidden margin pressure.
+
 ◉ 8–10% Profit Risk Identified
 Forecast vs target analysis showed the company was likely to miss its 2022 profit goal by ~8–10% without corrective action.
+
 ◉ Latin America Risk Exposed
 Detected ~12% sales growth but ~5% profit decline in Latin America, helping leadership focus on the highest-risk market early.
+
 ◉ Channel Profitability Clarity
 Showed that e-commerce produced ~50% of revenue but <30% of profit, while D2C delivered the highest profit per unit.
+
 ◉ Faster, Data-Driven Decisions
 Replaced Excel with real-time Power BI dashboards, enabling leadership to monitor P&L, forecast, and targets instantly instead of monthly.
+
 ◉ One Single Source of Truth
 Unified SQL + Excel data into one automated system, eliminating inconsistent reports and manual reconciliation.
 
 ## What this project tracks
+
 The analytics system is designed around how leadership actually runs the business. It tracks total revenue, cost of goods sold, gross profit, net profit, and profit margins. It also measures year-over-year growth so performance can be compared with the previous year, and it includes 2022 forecast and target values so future risk can be seen early.
 These numbers are not shown only at a company level. They are broken down by market, sales channel, product, and customer, which allows management to see exactly where performance is strong and where it is weak.
 
 ## How to explore this project
+
 This project is published as a live, interactive Power BI dashboard.
 The GitHub repository contains the project explanation and supporting material, while the dashboard link lets you interact with the data directly.
 Inside the dashboard, you can filter by year, market, channel, and product to see how sales, profit, and forecast numbers change — exactly how leadership would use it in real business reviews.
